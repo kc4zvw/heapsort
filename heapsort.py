@@ -3,8 +3,7 @@
 #    Author:  David Billsbrough <kc4zvw@earthlink.net>
 #   Created:  Wednesday, November 22, 2017 at 15:58:37 PM (EST)
 #   License:  GNU General Public License -- version 2
-#   Purpose:
-#             I am trying to figue out how to make the following
+#   Purpose:  I am trying to figure out how to make the following
 #             code for Heap sort work with many data types
 #
 # $Id: heapsort.py,v 0.38 2017/11/17 21:22:24 kc4zvw Exp kc4zvw $
@@ -74,7 +73,7 @@ def open_text_file():
 ### ====================================================================
 ##                            Main Program
 ##
-##        Demonstation of the heap sort using multiple data types
+##       Demonstration of the heap sort using multiple data types
 ### ====================================================================
 
 numlist = [2, 7, 1, -2, 56, 5, 3]
