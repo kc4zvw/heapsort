@@ -1,0 +1,126 @@
+
+ Numbers listing:
+------------------
+         2
+         7
+         1
+        -2
+        56
+         5
+         3
+
+ Sorted numbers:
+-----------------
+        -2
+         1
+         2
+         3
+         5
+         7
+        56
+
+
+
+ Character listing:
+--------------------
+        z
+        x
+        a
+        c
+        r
+        d
+        3
+
+ Sorted character listing:
+---------------------------
+        3
+        a
+        c
+        d
+        r
+        x
+        z
+
+
+My home directory is /home/kc4zvw
+Reading text file : /home/kc4zvw/alphabet.txt
+
+ Unsorted word listing:
+------------------------
+   Zulu
+   Yoke
+   X-ray
+   Whiskey
+   Victor
+   Uniform
+   Tango
+   Sierra
+   Romeo
+   Quebec
+   Papa
+   Oscar
+   November
+   Mike
+   Lima
+   Kilo
+   Juliet
+   India
+   Hotel
+   Golf
+   Foxtrot
+   Echo
+   Delta
+   Charlie
+   Bravo
+   Alpha
+
+ Sorted word listing:
+----------------------
+   Alpha
+   Bravo
+   Charlie
+   Delta
+   Echo
+   Foxtrot
+   Golf
+   Hotel
+   India
+   Juliet
+   Kilo
+   Lima
+   Mike
+   November
+   Oscar
+   Papa
+   Quebec
+   Romeo
+   Sierra
+   Tango
+   Uniform
+   Victor
+   Whiskey
+   X-ray
+   Yoke
+   Zulu
+
+ Various objects listing:
+--------------------------
+   z
+   5
+   1
+   d
+   zulu
+   -8
+   charlie
+
+ Sorted objects listing:
+-------------------------
+   -8
+   1
+   5
+   charlie
+   d
+   z
+   zulu
+
+

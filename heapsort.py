@@ -1,17 +1,15 @@
 #!/usr/bin/env python2
 #
-# $Id: heapsort.py,v 0.39 2017/11/18 06:15:49 kc4zvw Exp kc4zvw $
-
-# Purpose:
-#  I am trying to figue out how to make the following Code for Heap
-#  sort work with many data types:
+#    Author:  David Billsbrough <kc4zvw@earthlink.net>
+#   Created:  Wednesday, November 22, 2017 at 15:58:37 PM (EST)
+#   License:  GNU General Public License -- version 2
+#   Purpose:
+#             I am trying to figue out how to make the following
+#             code for Heap sort work with many data types
+#
+# $Id: heapsort.py,v 0.38 2017/11/17 21:22:24 kc4zvw Exp kc4zvw $
 
 import os
-
-
-### ====================================================================
-###  Demonstation of the heap sort using multiple data types
-### ====================================================================
 
 def swap(i, j):
 	wordlist[i], wordlist[j] = wordlist[j], wordlist[i] 
@@ -53,7 +51,7 @@ def print_header(str):
 def open_text_file():
 
 	myHome = get_home_directory()
-	text_file = myHome + os.sep + 'Text' + os.sep + 'alphabet.txt'
+	text_file = myHome + os.sep + 'alphabet.txt'
 	words = []
 
 	print("Reading text file : %s" % text_file)
@@ -74,7 +72,9 @@ def open_text_file():
 	return words
 
 ### ====================================================================
-##					Main Program
+##                            Main Program
+##
+##        Demonstation of the heap sort using multiple data types
 ### ====================================================================
 
 numlist = [2, 7, 1, -2, 56, 5, 3]
@@ -124,5 +124,24 @@ listing = heapsort()
 print_header("Sorted word listing:")
 for word in listing:
 	print("   %s" % word)
+
+### --------------------------------------------------------------------
+
+del wordlist[:]
+
+unsorted = ['z', 5, 1, 'd', "zulu", -8, "charlie"]
+
+print_header("Various objects listing:")
+for word in unsorted:
+	print("   %s" % word)
+
+wordlist = unsorted
+listing = heapsort()
+
+print_header("Sorted objects listing:")
+for word in listing:
+	print("   %s" % word)
+
+print("\n");
 
 # End of script
